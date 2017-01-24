@@ -1,0 +1,10 @@
+name = config_menu_dropdown
+description = Converts the 'local tasks' tabs to a dropdown 'gear' menu
+package = Custom
+version = VERSION
+core = 7.x
+
+
+stylesheets[all][] = config_menu_dropdown.css
+
+scripts[] = config_menu_dropdown.js
